@@ -15,38 +15,42 @@ body {
 }
 
 /* Header/Blog Title */
-.header {
+/* .header {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     font-family: 'Roboto', sans-serif;
-    padding: 60px;
+    padding: 20px;
     font-size: 40px;
     text-align: center;
-    color:white;
+    color:rgb(69, 206, 211);
     background-image: transparent;
     background-repeat: no-repeat;
-}
+} */
 
 /* Style the top navigation bar */
 .topnav {
+    margin:auto;
     overflow: hidden;
     background-color: #333;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Style the topnav links */
 .topnav a {
-    float: left;
     display: block;
-    color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
+h1 {
+    text-align: center;
+}
+
 /* Change color on hover */
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #B9B8D3;
+    color:rgba (0,0,0,0.8);
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -59,6 +63,7 @@ body {
 /* Right column */
 .rightcolumn {
     float: left;
+    text-align: center;
     width: 25%;
     background-color: transparent;
     padding-left: 20px;
@@ -66,7 +71,8 @@ body {
 
 /* Fake image */
 .fakeimg {
-    
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
     max-width: 100%;
     max-height: 100%;
     padding: 20px;
@@ -74,7 +80,7 @@ body {
 
 /* Add a card effect for articles */
 .card {
-     background-color: white;
+    background-color:rgba(255, 255, 255, 0.8);
      padding: 20px;
      margin-top: 20px;
 }
@@ -110,3 +116,24 @@ body {
         width:100%;
     }
 }
+
+a:visited {
+    color: #759FBC;
+}
+
+ a:active {
+   color: #759FBC;
+}
+a:hover {
+   color: #759FBC
+}
+
+ a:link {
+   color: #759FBC;
+
+ }
+
+ button {
+     background-color:#333;
+     border-color: #333;
+ }
