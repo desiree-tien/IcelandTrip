@@ -4,10 +4,11 @@
   
 }
 
+
 body {
     font-family: Arial;
     padding: 20px;
-    background: #90C3C8;
+    background: white;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     background: url(../images/northernlights.jpg) left top no-repeat, url(../images/northernlights2.jpg) right bottom no-repeat;
@@ -31,36 +32,33 @@ body {
 .topnav {
     margin:auto;
     overflow: hidden;
-    background-color: rgba(51, 51, 51,0.8);
+    color:black;
+    background-color:rgba(255, 255, 255, 0.8);
     font-family: 'Roboto', sans-serif;
+    border-style:dotted;
 }
 
 /* Style the topnav links */
 .topnav a {
     display: block;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-h1 {
-    text-align: center;
-}
 
 /* Change color on hover */
-.topnav a:hover {
-    background-color: rgba(185, 184, 211, 0.2);
-}
+
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
-.leftcolumn {   
-    float: left;
+.leftcolumn {  
+    float:left; 
     width: 75%;
 }
 
 /* Right column */
 .rightcolumn {
+    
     display:inline-block;
     text-align: center;
     width: 25%;
@@ -69,12 +67,11 @@ h1 {
 }
 
 /* Fake image */
-.fakeimg {
-    opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-    max-width: 100%;
-    max-height: 100%;
-    padding: 20px;
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
 }
 
 /* Add a card effect for articles */
@@ -117,18 +114,18 @@ h1 {
 }
 
 a:visited {
-    color: #759FBC;
+    color: black;
 }
 
  a:active {
-   color: #759FBC;
+   color: black;
 }
 a:hover {
-   color: #759FBC
+   color: black;
 }
 
  a:link {
-   color: #759FBC;
+   color: black;
 
  }
 
